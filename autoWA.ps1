@@ -106,8 +106,6 @@ function goAndClick($x, $y) {
 }
 
 function onWhatsApp {
-    add-Type -assemblyName system.Windows.Forms
-    add-Type -assemblyName system.Drawing
     $x = 710
     $y = 445
     $w = 500
